@@ -13,7 +13,10 @@ html {
     font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
 }
-
+body.overflow_is_hidden{
+    overflow: hidden ;
+    height:100vh;
+}
 h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
@@ -791,7 +794,14 @@ body {
     text-align: center;
     width: 2rem;
 }
-
+@media only screen and (max-width:7768px){
+    .social{
+        display: block;
+    }
+    .social li{
+        float: left;
+    }
+}
 .social a {
     align-items: center;
     display: flex;
