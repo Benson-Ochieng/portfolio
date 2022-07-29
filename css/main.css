@@ -724,6 +724,10 @@ body {
     margin-left: 100px;
 }
 
+.contactDp img:hover {
+    transform: scale(1.02) translateY(-4px);
+}
+
 .contactImg {
     width: auto;
 }
@@ -764,7 +768,7 @@ body {
 
 .contactButton:hover {
     box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-    transform: scale(1.02) translateY(-4px);
+    transform: scale(1.02) translateY(-4px) !important;
     color: #f7ccac;
     text-decoration: none !important;
 }
