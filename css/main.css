@@ -430,6 +430,11 @@ footer {
 .markTitle {
     margin-left: 145px;
 }
+@media only screen and (max-width:767px) {
+    .markTitle{
+        margin-left: 0 !important;
+    }
+}
 
 .para1 {
     justify-content: center;
