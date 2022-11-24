@@ -852,3 +852,9 @@ body {
 .IG {
     color: #f7ccac;
 }
+
+/* maloogas link */
+.maloo-link{
+    color: #f7ccac;
+    text-decoration: none;
+}
