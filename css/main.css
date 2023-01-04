@@ -724,6 +724,9 @@ body {
 .contactDetails {
     top: 100px;
 }
+.contactDetails{
+    margin-top: 5rem;
+}
 
 .contactDp img {
     margin-left: 100px;
@@ -743,6 +746,9 @@ body {
     text-transform: uppercase;
     top: 26rem;
     left: 50rem;
+}
+.contact-btn{
+    top: 15rem !important;
 }
 
 .contactButton,
